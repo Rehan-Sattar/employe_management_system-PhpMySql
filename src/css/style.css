@@ -1,0 +1,89 @@
+#home-section{
+    width : 100%;
+    height: 100vh;
+    background: url("../img/create-section1.jpg") no-repeat center top fixed;
+    background-size: cover;
+    background-attachment: fixed; 
+}
+#home_container{
+    padding-top: 100px;
+}
+#home-section-sing_in{
+    width : 100%;
+    height: 100vh;
+    background: url("../img/share-section1.jpg") no-repeat center top fixed;
+    background-size: cover;
+    background-attachment: fixed; 
+}
+#home-overlay_sing_in{
+    height: inherit;
+    background-color: rgba(0, 140, 255, 0.637);
+    
+}
+#home-section> div#home-overlay{
+    height: inherit;
+    background-color: rgba(0, 140, 255, 0.637);
+}
+
+
+nav {
+    padding: 1em;
+}
+a.navbar-brand{
+    color:  rgba(0, 140, 255, 0.637);
+}
+.nav-link{
+    color:  rgba(0, 140, 255, 0.637);
+    padding: 10px;
+}
+
+.nav-link:hover {
+    background-color: rgba(0, 140, 255, 0.637);
+    color: #fff;
+}
+.service-container{
+    margin-top: 10em;
+}
+.dasbhoard_navigator{
+    height: 100vh;
+    color: red !important;
+}
+/* services classes */
+#service-section {
+    background: #00B4DB;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #0083B0, #00B4DB);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #0083B0, #00B4DB); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+
+#service-1{
+    background-color: rgba(0, 140, 255, 0.637);
+    padding: 10em 0em;
+}
+
+.img{
+    height: auto;
+    width: 100%;
+    border-radius: 250px;
+}
+
+
+
+#container_for_s1{
+    padding-top: 5em;
+    padding-bottom: 5em;
+    
+}
+
+#container_for_s2{
+    padding-top: 5em;
+    padding-bottom: 5em;
+    
+}
+
+#container_for_s3{
+    
+    padding-top: 5em;
+    padding-bottom: 5em;
+    
+}
