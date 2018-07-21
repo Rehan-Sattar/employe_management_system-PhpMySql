@@ -25,6 +25,20 @@
     background-color: rgba(0, 140, 255, 0.637);
 }
 
+#login_section{
+    background: url("../img/create-section1.jpg") no-repeat center top fixed;
+    background-size: cover;
+    background-attachment: fixed; 
+    background-color: rgba(0, 140, 255, 0.637);
+    
+}
+#inner_login {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 140, 255, 0.637);
+    padding: 10em 0em;
+    color: white;
+}
 
 nav {
     padding: 1em;
@@ -45,8 +59,8 @@ a.navbar-brand{
     margin-top: 10em;
 }
 .dasbhoard_navigator{
-    height: 100vh;
-    color: red !important;
+    /* height: 100vh; */
+    /* color: red !important; */
 }
 /* services classes */
 #service-section {

@@ -124,27 +124,33 @@
     </section>
 
     <!-- login Section  -->
-    <section id="login_section" class="my-5">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6 col-lg-6 col-sm-12">
-                    <h3>Lets start..</h3>
-                    <p class="lead">
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci excepturi fugiat laudantium cupiditate, beatae veritatis dolore voluptatibus ex? Ratione placeat tenetur asperiores ea delectus culpa eum eveniet exercitationem temporibus dolorum!
-                    </p>
-                </div>
-                <div class="col-md-6 p-3 col-lg-6 col-sm-12">
-                    <h3 class="text-center  mb-3"><i class="fa fa-user"></i> Login </h3>
-                    <form action="">
-                        <input type="email" name="user_email" id="" class="form-control form-control-lg" placeholder="email@domain.com">
-                        <br>
-                        <input type="password" name="user_password" id="" class="form-control form-control-lg" placeholder="Password">
-                        <br>
-                        <button type="submit" class="btn btn-block btn-warning">Login</button>
-                    </form>
+    <section id="login_section">
+        <div id="inner_login">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-lg-6 col-sm-12">
+                        <h3>Lets start..</h3>
+                        <p class="lead">
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci excepturi fugiat laudantium cupiditate, beatae veritatis
+                            dolore voluptatibus ex? Ratione placeat tenetur asperiores ea delectus culpa eum eveniet exercitationem
+                            temporibus dolorum!
+                        </p>
+                    </div>
+                    <div class="col-md-6 p-3 col-lg-6 col-sm-12">
+                        <h3 class="text-center  mb-3">
+                            <i class="fa fa-user"></i> Login </h3>
+                        <form action="./login.php" method="POST">
+                            <input type="email" name="user_email" required class="form-control form-control-lg" placeholder="email@domain.com">
+                            <br>
+                            <input type="password" name="user_password" required class="form-control form-control-lg" placeholder="Password">
+                            <br>
+                            <button type="submit" class="btn btn-block btn-default">Login</button>
+                        </form>
+                    </div>
                 </div>
             </div>
         </div>
+
     </section>
 
     <footer class="bg-inverse py-5 text-white">
