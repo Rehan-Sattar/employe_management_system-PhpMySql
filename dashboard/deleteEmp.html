@@ -9,12 +9,7 @@
     <link rel="stylesheet" href="../src/css/font-awesome.min.css">
     <link rel="stylesheet" href="../src/css/style.css">
 </head>
-<style>
-    .dasbhoard_navigator{
-        padding : 0px !important ;
-        height: 100vh;
-    }
-</style>
+
 <body>
     <header class="py-3 text-center text-white bg-inverse">
         <h3><i class="fa fa-gears"></i>
@@ -35,7 +30,7 @@
             <div class="container">
                 <h1 class="my-3 text-center"> <i class="fa fa-trash"></i> Delete Employee</h1>
                 <hr>
-                <form action="">
+                <form action="./php script/deleteEmp.php" method="POST">
                     <div class="card">
                         <div class="card-block">
                                 <input type="email" name="emp_email" class="form-control" placeholder="Email: example@gmail.com">
